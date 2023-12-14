@@ -1,0 +1,296 @@
+body {
+	font-family: 'montserrat' ;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'montserrat' ;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.header {
+	background: #FFF001 ;
+	padding-top: 50px;
+	max-height: 862px;
+}
+.wrapper {
+	display: flex; 
+}
+.offer {
+	margin-top: 195px;
+}
+.intro {
+	font-size: 24px;
+}
+.title{
+	font-size: 48px;
+	margin-bottom: 75px;
+}
+.btn {
+	font-size: 24px;
+	background: #FF3E3E;
+	color: #fff;
+	border-radius: 100px;
+	display: block;
+	width: 290px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 0 0 30px #FF3636;
+}
+.menu {
+	display: flex; 
+}
+.btnmenu1 {
+	font-size: 18;
+	font-weight: 900;
+	margin-left: 250px;
+	color: black;
+	text-decoration: underline #000000;
+}
+.btnmenu {
+	margin-left: 65px;
+	color: black;
+	text-decoration: none;
+}
+
+
+
+#about {
+	background: black;
+
+}
+
+.about__row{
+	display: flex;
+	flex-direction: row;
+}
+
+.about__text{
+	display: flex;
+	flex-direction: column;
+	max-width: 625px;
+	padding-top: 126px;
+}
+
+.title_white{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	border-bottom: 1px solid white;
+	margin: 0 auto;
+}
+
+.description{
+	color: #FFF;
+	font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.portfolio{
+	background: #FFF;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.portfolio__column{
+	display: flex;
+	flex-direction: column;
+	    align-items: center;
+}
+
+.portfolio__row{
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+	margin-top: 154px;
+}
+
+.portfolio__row img{
+	width: 370px;
+	height: 465px;	
+}
+
+
+.portfolio__btn{
+	color: #F6F6F6;
+
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	
+	width: 288px;
+	height: 71px;
+	flex-shrink: 0;
+	border-radius: 38.5px;
+	background: #000;
+	
+	margin: 100px auto 29px auto;
+}
+
+.youtube{
+	background: #FFF;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.youtube__column{
+	display: flex;
+	flex-direction: column;
+	    align-items: center;
+}
+
+.youtube__row{
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+	margin-top: 154px;
+}
+
+.youtube__row img{
+	width: 655px;
+	height: 367px;
+}
+
+.youtube__img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img__desc{
+	font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.services{
+	background: black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 78px;
+}
+
+.service_title{
+	border: none;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__row{
+	display: flex;
+	flex-direction: row;
+	margin-top: 33px;
+	column-gap: 200px;
+}
+
+.services__column{
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	color: #FFF;
+}
+
+.services__img{
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.service__subtitle{
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.services__link_column{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	margin: 0 auto;
+}
+.services__button{
+	color: #FFF;
+
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	width: 163px;
+	height: 31px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	margin: 0 auto;
+}
+
+
+.footer{
+	background-color: black;
+	text-align: center;
+	padding-top: 155px;
+}
+
+.footer__title{
+	border: none;
+	margin-bottom: 26px;
+}
+
+.footer__subtitle span{
+	color: #B45C5C;
+}
+
+.footer__subtitle{
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	color: #FFF;
+}
+
+.footer__row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	column-gap: 31px;
+	padding-bottom: 150px;
+}
+
+
+
