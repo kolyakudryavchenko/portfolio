@@ -19,6 +19,10 @@ a{
 	text-decoration: none;
 }
 
+ul, li{
+	list-style: none;
+}
+
 .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -26,10 +30,22 @@ a{
 .header {
 	background: #FFF001 ;
 	padding-top: 50px;
-	max-height: 862px;
 }
+
+.header__row{
+	display: flex;
+	flex-direction: row;
+}
+
+.menu__list{
+	display: flex;
+	flex-direction: row;
+}
+
 .wrapper {
-	display: flex; 
+	display: flex;
+	flex-direction: row;
+	background: #FFF001 ;
 }
 .offer {
 	margin-top: 195px;
@@ -57,7 +73,7 @@ a{
 	display: flex; 
 }
 .btnmenu1 {
-	font-size: 18;
+	font-size: 18px;
 	font-weight: 900;
 	margin-left: 250px;
 	color: black;
@@ -67,6 +83,7 @@ a{
 	margin-left: 65px;
 	color: black;
 	text-decoration: none;
+	font-size: 18px;
 }
 
 
@@ -294,3 +311,115 @@ line-height: normal;
 
 
 
+@media (max-width: 600px) {
+	.container{
+		width: 570px;
+	}
+
+	.header__row{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.header{
+		padding-top: 20px;
+	}
+
+	.menu__list{
+		display: flex;
+		flex-direction: row;
+		max-width: 70%;
+	}
+
+	.menu__list{
+		display: flex;
+		align-items: center;
+		justify-content: center;;
+	}
+	.btnmenu1{
+		margin-left: 35px;
+		font-size: 14px;
+		white-space: nowrap;
+	}
+	.btnmenu{
+		font-size: 14px;
+		margin-left: 5px;
+	}
+
+	p{
+		font-size: 16px;
+	}
+
+	.intro{
+		font-size: 16px;
+	}
+
+	.title{
+		font-size: 24px;
+	}
+
+	.wrapper{
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.offer{
+		margin-top: 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.wrapper img{
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.about{
+		margin-top: -204px;
+	}
+
+	.about__row{
+		flex-direction: column;
+	}
+
+	.portfolio__row{
+		flex-direction: column;
+		row-gap: 30px;
+  		column-gap: 0;
+		margin-top: 50px;
+	}
+
+	.youtube__row{
+		flex-direction: column;
+		margin-top: 50px;
+	}
+
+	.youtube__img{
+		width: 570px;
+	}
+
+	.youtube__img img{
+		width: 100%;
+	}
+
+	.services__row{
+		flex-direction: column;
+		row-gap: 30px;
+    	column-gap: 0;
+	}
+
+	.services__link_column{
+		margin: 40px auto 0 auto;
+	}
+
+	.footer{
+		padding-top: 50px;
+	}
+
+	.footer__row{
+		padding-bottom: 50px;
+	}
+}
