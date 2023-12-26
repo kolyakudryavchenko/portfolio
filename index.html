@@ -21,16 +21,13 @@
 					<nav class="header__menu menu">
 						 <ul class="menu__list">
 							  <li class="menu__item">
-									<a href="#"class="btnmenu1">Мої послуги</a>
+									<a onclick="scrollToElement('portfolio1')" class="btnmenu1">Портфоліо</a>
 							  </li>
 							  <li class="menu__item">
-									<a href="#"class="btnmenu">Портфоліо</a>
+									<a onclick="scrollToElement('service')" class="btnmenu">Послуги</a>
 							  </li>
 							  <li class="menu__item">
-									<a href="#"class="btnmenu">Послуги</a>
-							  </li>
-							  <li class="menu__item">
-									<a href="#"class="btnmenu">Контакти</a>
+									<a onclick="scrollToElement('footer')" class="btnmenu">Контакти</a>
 							  </li>
 						</ul>
 				  </nav>
@@ -45,7 +42,9 @@
 					<h1 class="title"> Індивідуальний підхід до кожної зйомки </h1>
 					<a href="#" class="btn"> Мої послуги</a>
 				</div>
+				<div class="img__container">
 					<img src="img/photo1.png" alt="myphoto" class="my">	
+				</div>
 		</div>
 	</section>
 	
@@ -68,11 +67,14 @@
 до ведення Youtube-каналів і 
 зйомки  рекламних роликів</p>
 				</div>
-				<img src="img/about.svg" alt="phabout">
+				<div class="img__container">
+					<img src="img/about.svg" alt="phabout">
+				</div>
+				
 			</div>
 		</div>
 	</section>
-	<section id="portfolio" class="portfolio">
+	<section id="portfolio1" class="portfolio">
 		<div class="container">
 			<div class="portfolio__column">
 				<div class="portfolio__row">
@@ -110,7 +112,7 @@
 		</div>
 	</section>
 
-	<section class="services">
+	<section id="service" class="services">
 		<div class="container">
 			<h2 class="title_white service_title">Послуги:</h2>
 			<div class="services__row">
@@ -165,5 +167,6 @@
 		</div>
 	</footer>
 
+	<script src="main.js"></script>
 </body>
 </html>
